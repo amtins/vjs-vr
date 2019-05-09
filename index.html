@@ -17,7 +17,7 @@
 
   <body>
     <video
-      id="srgssr-player"
+      id="player"
       class="video-js"
       width="640"
       height="480"
@@ -28,7 +28,7 @@
     <script src="node_modules/video.js/dist/video.js"></script>
     <script src="node_modules/videojs-vr/dist/videojs-vr.js"></script>
     <script>
-      const player = videojs(document.querySelector("#srgssr-player"), {});
+      const player = videojs(document.querySelector("#player"), {});
 
       player.vr({ projection: "360" });
     </script>
