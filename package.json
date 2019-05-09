@@ -1,0 +1,24 @@
+{
+  "name": "vjs-vr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amtins/vjs-vr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amtins/vjs-vr/issues"
+  },
+  "homepage": "https://github.com/amtins/vjs-vr#readme",
+  "dependencies": {
+    "video.js": "^7.5.4",
+    "videojs-vr": "^1.5.0"
+  }
+}
